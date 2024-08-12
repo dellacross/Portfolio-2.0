@@ -1,0 +1,12 @@
+#vertical-nav {
+    background-color: var(--vsc-color);
+    height: 70%;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
