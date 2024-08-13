@@ -1,7 +1,5 @@
 #vertical-nav {
     background-color: var(--vsc-color);
-    height: 70%;
-    width: 50px;
     display: flex;
     flex-direction: column;
     border-radius: 15px;
@@ -9,4 +7,22 @@
     right: 20px;
     top: 50%;
     transform: translate(0, -50%);
+}
+
+#vertical-nav > button {
+    padding: 10px 0;
+    font-size: 2rem;
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    width: 50px;
+}
+
+#vertical-nav > button.current-page,
+#vertical-nav > button:hover {
+    color: #090909;
 }

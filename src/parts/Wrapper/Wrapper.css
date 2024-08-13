@@ -1,6 +1,12 @@
 #wrapper {
     width: 100vw;
     height: 100vh;
-    display: block;
+    display: flex;
     box-sizing: border-box;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+#wrapper::-webkit-scrollbar {
+    width: 0;
 }

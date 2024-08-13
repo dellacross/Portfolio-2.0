@@ -1,10 +1,9 @@
 import React from 'react'
 import './Home.css'
-import Wrapper from '../../parts/Wrapper/Wrapper'
 
 const Home = () => {
-  return (
-    <Wrapper>
+
+    return (
         <div id="home">
             <article>
                 <section>
@@ -47,8 +46,7 @@ const Home = () => {
                 </a>
             </footer>
         </div>
-    </Wrapper>
-  )
+    )
 }
 
 export default Home

@@ -1,0 +1,8 @@
+#about-me {
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+    box-sizing: border-box;
+    background-color: blue;
+    flex-direction: column;
+}
