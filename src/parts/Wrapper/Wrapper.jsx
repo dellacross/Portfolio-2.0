@@ -3,6 +3,8 @@ import './Wrapper.css'
 import VerticalNav from '../../components/VerticalNav/VerticalNav'
 import Home from '../../pages/Home/Home'
 import AboutMe from '../../pages/AboutMe/AboutMe'
+import Academic from '../../pages/Academic/Academic'
+import Knowledge from '../../pages/Knowledge/Knowledge'
 
 export const PagesContext = createContext({})
 
@@ -36,6 +38,8 @@ const Wrapper = () => {
         <VerticalNav />
         <Home />
         <AboutMe />
+        <Academic />
+        <Knowledge />
       </div>
     </PagesContext.Provider>
   )

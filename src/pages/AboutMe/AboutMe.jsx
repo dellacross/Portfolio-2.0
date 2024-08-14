@@ -3,8 +3,6 @@ import './AboutMe.css'
 import Photo from '../../assets/images/photo.jpeg'
 
 const AboutMe = () => {
-
-
   return (
     <div id="about-me">
       <header>
@@ -28,7 +26,7 @@ const AboutMe = () => {
             Meu nome é&nbsp;<b>Victor</b>, desenvolvedor web full stack
           </h3>
           <p>
-            Sou graduando do 8º período do curso de Sistemas de Informação, pela Universidade Federal de Minas Gerais (UFMG). Ao longo da minha formação, desenvolvi diversos projetos, em diferentes linguagens, e, atualmente, busco aplicar os conhecimentos adquiridos no mercado de trabalho como desenvolvedor web.
+            Sou graduando do 9º período do curso de Sistemas de Informação, pela Universidade Federal de Minas Gerais (UFMG). Ao longo da minha formação, desenvolvi diversos projetos, em diferentes linguagens, e, atualmente, busco aplicar os conhecimentos adquiridos no mercado de trabalho como desenvolvedor web.
           </p>
           <div id="infos-container">
             <div className="info">
