@@ -5,6 +5,7 @@ import Home from '../../pages/Home/Home'
 import AboutMe from '../../pages/AboutMe/AboutMe'
 import Academic from '../../pages/Academic/Academic'
 import Knowledge from '../../pages/Knowledge/Knowledge'
+import Projects from '../../pages/Projects/Projects'
 
 export const PagesContext = createContext({})
 
@@ -40,6 +41,7 @@ const Wrapper = () => {
         <AboutMe />
         <Academic />
         <Knowledge />
+        <Projects />
       </div>
     </PagesContext.Provider>
   )
