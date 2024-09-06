@@ -3,6 +3,13 @@ import './AboutMe.css'
 import Photo from '../../assets/images/photo.jpeg'
 
 const AboutMe = () => {
+
+  const GetAge = () => {
+    const today = new Date();
+    const initDate = new Date('2/3/2001');
+    return today.getFullYear() - initDate.getFullYear()
+  }
+
   return (
     <div id="about-me">
       <header>
@@ -35,7 +42,7 @@ const AboutMe = () => {
             </div>
             <div className="info">
               <strong>Idade</strong>
-              <p>23 anos</p>
+              <p>{`${GetAge()} anos`}</p>
             </div>
             <div className="info">
               <strong>Localização</strong>

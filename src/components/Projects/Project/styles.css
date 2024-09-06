@@ -15,12 +15,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 2.5rem;
+}
+
+#projects > article > #project > header > p {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: rgb(255, 103, 103);
 }
 
 #projects > article > #project > header > span,
 #projects > article > #project > header > a {
     color: #fff;
+    font-size: 2.5rem;
 }
 
 #projects > article > #project > strong {

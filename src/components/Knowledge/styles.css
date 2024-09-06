@@ -1,0 +1,60 @@
+#knowledge > article > section {
+    display: flex;
+    background-color: #303030;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+#knowledge > article > section > header {
+    height: 50px;
+}
+
+#knowledge > article > section > header > ion-icon {
+    font-size: 3.5rem;
+    color: var(--vsc-color);
+}
+
+#knowledge > article > section > main {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+}
+
+#knowledge > article > section > main > .techs {
+    font-size: 2.2rem;
+}
+
+#knowledge > article > section > main > .techs > span {
+    margin: 0 10px;
+}
+
+#knowledge > article > section > a {
+    color: #fff;
+    display: flex;
+    margin: 0;
+    text-decoration: none;
+    font-weight: 600;
+    height: 30px;
+}
+
+#knowledge > article > section > a:hover {
+    color: var(--vsc-color)
+}
+
+#knowledge > article > section > p {
+    margin: 5px 0;
+    font-size: 1.7rem;
+    padding: 0;
+    height: 30px;
+}
+
+#knowledge > article > section >  span {
+    color: var(--vsc-color);
+    font-weight: 600;
+}

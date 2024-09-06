@@ -1,6 +1,12 @@
 export const GetProjects = async () => {
 
-    const status = ['Em planejamento', 'Em desenvolvimento', 'Fase de testes', 'Finalizado', 'Em manutenção']
+    const status = [
+        'Em planejamento', 
+        'Em desenvolvimento', 
+        'Fase de testes', 
+        'Finalizado', 
+        'Em manutenção'
+    ]
 
     const Projects = [
         {
@@ -17,7 +23,7 @@ export const GetProjects = async () => {
             ],
             siteUrl: 'https://dellacross.github.io/area-restrita/',
             status: status[1],
-            owner: 'Terceiros'
+            ownProject: false
         },
         {
             title: 'Campo minado',
@@ -29,12 +35,11 @@ export const GetProjects = async () => {
                 'devicon-html5-plain colored',
                 'devicon-css3-plain colored',
                 'devicon-react-original colored',
-                'devicon-reactrouter-plain-wordmark colored',
                 'devicon-nodejs-plain colored'
             ],
             siteUrl: null,
             status: status[1],
-            owner: 'Próprio'
+            ownProject: true
         },
         {
             title: 'Conta Certa',
@@ -46,12 +51,11 @@ export const GetProjects = async () => {
                 'devicon-html5-plain colored',
                 'devicon-css3-plain colored',
                 'devicon-react-original colored',
-                'devicon-reactrouter-plain-wordmark colored',
                 'devicon-nodejs-plain colored'
             ],
             siteUrl: null,
             status: status[1],
-            owner: 'Próprio'
+            ownProject: true
         },
         {
             title: 'Portfólio',
@@ -67,7 +71,7 @@ export const GetProjects = async () => {
             ],
             siteUrl: null,
             status: status[2],
-            owner: 'Próprio'
+            ownProject: true
         },
         {
             title: 'Sujeito Pizza',
@@ -75,16 +79,17 @@ export const GetProjects = async () => {
             repositoryUrl: 'https://github.com/dellacross/SujeitoPizza',
             restrictUrl: false,
             tools: [
-                'logo-javascript',
-                'logo-nodejs'
+                'devicon-javascript-plain colored',
+                'devicon-typescript-plain colored',
+                'devicon-nodejs-plain colored'
             ],
             siteUrl: null,
-            status: status[2],
-            owner: 'Próprio (feito durante um curso)'
+            status: status[3],
+            ownProject: true
         },
         ,
         {
-            title: 'Gestão de dados de uma rede de dados climáticos de salas de aula',
+            title: 'Rede de dados climáticos',
             description: 'Sistema de gerenciamento de dados de uma rede (cliente-servidor - TCP/IP) de dados climáticos de salas de aula de uma universidade fictícia.',
             repositoryUrl: 'https://github.com/dellacross/Redes-TP1',
             restrictUrl: false,
@@ -92,11 +97,11 @@ export const GetProjects = async () => {
                 'devicon-c-plain colored'
             ],
             siteUrl: null,
-            status: status[2],
-            owner: 'Próprio'
+            status: status[3],
+            ownProject: true
         },
         {
-            title: 'Gestão de dados de uma rede de sistema elétrico',
+            title: 'Rede de sistema elétrico',
             description: 'Sistema de gerenciamento de dados de uma rede (cliente-servidor - TCP/IP) de um sistema elétrico de uma universidade fictícia.',
             repositoryUrl: 'https://github.com/dellacross/Redes-TP2',
             restrictUrl: false,
@@ -104,8 +109,8 @@ export const GetProjects = async () => {
                 'devicon-c-plain colored'
             ],
             siteUrl: null,
-            status: status[2],
-            owner: 'Próprio'
+            status: status[3],
+            ownProject: true
         }
     ]
 
