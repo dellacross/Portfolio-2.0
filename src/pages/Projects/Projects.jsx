@@ -1,86 +1,44 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import './Projects.css'
 import Project from '../../components/Projects/Project'
+import { GetProjects } from '../../utils/Projects'
 
 const Projects = () => {
-  return (
-    <div id="projects">
-        <header>
-            <h1>
-                <b>PROJETOS</b>
-                <span>PRÁTICA</span>
-            </h1>
-        </header>
-        <article>
-            <Project 
-                title='Área Restrita'
-                description='Responsável pelo desenvolvimento front-end do sistema interno da empresa Cotemig - Colégio e Faculdade para alunos, ex-alunos, responsáveis, professores e funcionários.'
-                url='https://github.com/dellacross/area-restrita'
-                restrictUrl={true}
-                tools={[
-                    'logo-javascript',
-                    'logo-html5',
-                    'logo-css3'
-                ]}
-            />
-            <Project 
-                title='Área Restrita'
-                description='Responsável pelo desenvolvimento front-end do sistema interno da empresa Cotemig - Colégio e Faculdade para alunos, ex-alunos, responsáveis, professores e funcionários.'
-                url='https://github.com/dellacross/area-restrita'
-                restrictUrl={true}
-                tools={[
-                    'logo-javascript',
-                    'logo-html5',
-                    'logo-css3'
-                ]}
-            />
-            <Project 
-                title='Área Restrita'
-                description='Responsável pelo desenvolvimento front-end do sistema interno da empresa Cotemig - Colégio e Faculdade para alunos, ex-alunos, responsáveis, professores e funcionários.'
-                url='https://github.com/dellacross/area-restrita'
-                restrictUrl={true}
-                tools={[
-                    'logo-javascript',
-                    'logo-html5',
-                    'logo-css3'
-                ]}
-            />
-            <Project 
-                title='Área Restrita'
-                description='Responsável pelo desenvolvimento front-end do sistema interno da empresa Cotemig - Colégio e Faculdade para alunos, ex-alunos, responsáveis, professores e funcionários.'
-                url='https://github.com/dellacross/area-restrita'
-                restrictUrl={true}
-                tools={[
-                    'logo-javascript',
-                    'logo-html5',
-                    'logo-css3'
-                ]}
-            />
-            <Project 
-                title='Área Restrita'
-                description='Responsável pelo desenvolvimento front-end do sistema interno da empresa Cotemig - Colégio e Faculdade para alunos, ex-alunos, responsáveis, professores e funcionários.'
-                url='https://github.com/dellacross/area-restrita'
-                restrictUrl={true}
-                tools={[
-                    'logo-javascript',
-                    'logo-html5',
-                    'logo-css3'
-                ]}
-            />
-            <Project 
-                title='Área Restrita'
-                description='Responsável pelo desenvolvimento front-end do sistema interno da empresa Cotemig - Colégio e Faculdade para alunos, ex-alunos, responsáveis, professores e funcionários.'
-                url='https://github.com/dellacross/area-restrita'
-                restrictUrl={true}
-                tools={[
-                    'logo-javascript',
-                    'logo-html5',
-                    'logo-css3'
-                ]}
-            />
-        </article>
-    </div>
-  )
+
+    const [projects, setProjects] = useState(null)
+
+    useEffect(() => {
+        if(!projects) {
+
+            const handleGetProjects = async () => {
+                const _projects = await GetProjects()
+                setProjects(_projects)
+            }
+
+            handleGetProjects()
+        }
+    }, [projects])
+
+    return (
+        <div id="projects">
+            <header>
+                <h1>
+                    <b>PROJETOS</b>
+                    <span>PRÁTICA</span>
+                </h1>
+            </header>
+            <article>
+                {
+                    projects && projects?.map((item, index) => (
+                        <Project 
+                            key={index}
+                            item={item}
+                        />
+                    ))
+                }
+            </article>
+        </div>
+    )
 }
 
 export default Projects

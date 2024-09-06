@@ -1,0 +1,113 @@
+export const GetProjects = async () => {
+
+    const status = ['Em planejamento', 'Em desenvolvimento', 'Fase de testes', 'Finalizado', 'Em manutenção']
+
+    const Projects = [
+        {
+            title: 'Área Restrita',
+            description: 'Desenvolvimento front-end do sistema interno da empresa Cotemig - Colégio e Faculdade para alunos, ex-alunos, responsáveis, professores e funcionários.',
+            repositoryUrl: 'https://github.com/dellacross/area-restrita',
+            restrictUrl: true,
+            tools: [
+                'devicon-javascript-plain colored',
+                'devicon-html5-plain colored',
+                'devicon-css3-plain colored',
+                'devicon-react-original colored',
+                'devicon-reactrouter-plain-wordmark colored'
+            ],
+            siteUrl: 'https://dellacross.github.io/area-restrita/',
+            status: status[1],
+            owner: 'Terceiros'
+        },
+        {
+            title: 'Campo minado',
+            description: 'Jogo de campo minado.',
+            repositoryUrl: 'https://github.com/dellacross/MineField',
+            restrictUrl: true,
+            tools: [
+                'devicon-javascript-plain colored',
+                'devicon-html5-plain colored',
+                'devicon-css3-plain colored',
+                'devicon-react-original colored',
+                'devicon-reactrouter-plain-wordmark colored',
+                'devicon-nodejs-plain colored'
+            ],
+            siteUrl: null,
+            status: status[1],
+            owner: 'Próprio'
+        },
+        {
+            title: 'Conta Certa',
+            description: 'Sistema de gerenciamento de gastos pessoais com diversas funcionalidades.',
+            repositoryUrl: 'https://github.com/dellacross/ContaCerta',
+            restrictUrl: true,
+            tools: [
+                'devicon-javascript-plain colored',
+                'devicon-html5-plain colored',
+                'devicon-css3-plain colored',
+                'devicon-react-original colored',
+                'devicon-reactrouter-plain-wordmark colored',
+                'devicon-nodejs-plain colored'
+            ],
+            siteUrl: null,
+            status: status[1],
+            owner: 'Próprio'
+        },
+        {
+            title: 'Portfólio',
+            description: 'Portfólio pessoal.',
+            repositoryUrl: 'https://github.com/dellacross/Portfolio-2.0',
+            restrictUrl: true,
+            tools: [
+                'devicon-javascript-plain colored',
+                'devicon-html5-plain colored',
+                'devicon-css3-plain colored',
+                'devicon-react-original colored',
+                'devicon-nodejs-plain colored'
+            ],
+            siteUrl: null,
+            status: status[2],
+            owner: 'Próprio'
+        },
+        {
+            title: 'Sujeito Pizza',
+            description: 'Backend de um sistema de gerenciamento de pedidos de um restaurante fictício.',
+            repositoryUrl: 'https://github.com/dellacross/SujeitoPizza',
+            restrictUrl: false,
+            tools: [
+                'logo-javascript',
+                'logo-nodejs'
+            ],
+            siteUrl: null,
+            status: status[2],
+            owner: 'Próprio (feito durante um curso)'
+        },
+        ,
+        {
+            title: 'Gestão de dados de uma rede de dados climáticos de salas de aula',
+            description: 'Sistema de gerenciamento de dados de uma rede (cliente-servidor - TCP/IP) de dados climáticos de salas de aula de uma universidade fictícia.',
+            repositoryUrl: 'https://github.com/dellacross/Redes-TP1',
+            restrictUrl: false,
+            tools: [
+                'devicon-c-plain colored'
+            ],
+            siteUrl: null,
+            status: status[2],
+            owner: 'Próprio'
+        },
+        {
+            title: 'Gestão de dados de uma rede de sistema elétrico',
+            description: 'Sistema de gerenciamento de dados de uma rede (cliente-servidor - TCP/IP) de um sistema elétrico de uma universidade fictícia.',
+            repositoryUrl: 'https://github.com/dellacross/Redes-TP2',
+            restrictUrl: false,
+            tools: [
+                'devicon-c-plain colored'
+            ],
+            siteUrl: null,
+            status: status[2],
+            owner: 'Próprio'
+        }
+    ]
+
+    return Projects
+}

@@ -6,12 +6,12 @@ const Project = (props) => {
     <div id="project">
         <header>
             {
-                props.restrictUrl ?
+                props.item?.restrictUrl ?
                 (<span><ion-icon name="logo-github"></ion-icon></span>)
                 :
                 (
                     <a 
-                        href={props.url}
+                        href={props.item?.repositoryUrl}
                         rel='noopener noreferrer'
                         target='_blank'
                     >
@@ -19,15 +19,18 @@ const Project = (props) => {
                     </a>
                 )
             }
-
+            {
+                props.item?.siteUrl &&
+                <a href={props.item?.siteUrl}><ion-icon name="link-outline"></ion-icon></a>
+            }
         </header>
-        <h2>{props.title}</h2>
-        <p>{props.description}</p>
+        <strong>{props.item?.title}</strong>
+        <p>{props.item?.description}</p>
         <div id="tools">
         {
-            props.tools && props.tools?.map((tool, index) => (
+            props.item?.tools && props.item?.tools?.map((tool, index) => (
                 <span key={index}>
-                    <ion-icon name={tool}></ion-icon>
+                    <i class={tool} />
                 </span>
             ))
         }
