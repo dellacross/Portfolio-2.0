@@ -22,7 +22,7 @@
     width: 50px;
 }
 
-#vertical-nav > button.current-page,
+#vertical-nav > button.active,
 #vertical-nav > button:hover {
     color: #090909;
 }

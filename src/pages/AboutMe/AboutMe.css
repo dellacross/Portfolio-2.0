@@ -134,7 +134,7 @@
     margin: 0;
 }
 
-#about-me > article > #datas-wrapper > button {
+#about-me > article > #datas-wrapper > a {
     background-color: var(--vsc-color);
     color: #fff;
     border-radius: 15px;
@@ -145,4 +145,5 @@
     justify-content: center;
     align-items: center;
     padding: 7px 20px;
+    text-decoration: none;
 }

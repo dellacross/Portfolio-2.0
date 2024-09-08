@@ -33,7 +33,7 @@ const AboutMe = () => {
             Meu nome é&nbsp;<b>Victor</b>, desenvolvedor web full stack
           </h3>
           <p>
-            Sou graduando do 9º período do curso de Sistemas de Informação, pela Universidade Federal de Minas Gerais (UFMG). Ao longo da minha formação, desenvolvi diversos projetos, em diferentes linguagens, e, atualmente, busco aplicar os conhecimentos adquiridos no mercado de trabalho como desenvolvedor web.
+            Sou graduando do 9º período do curso de Sistemas de Informação, pela Universidade Federal de Minas Gerais (UFMG). Ao longo da minha formação, desenvolvi diversos projetos, em diferentes linguagens, e, atualmente, busco aplicar meus conhecimentos no mercado de trabalho como desenvolvedor web.
           </p>
           <div id="infos-container">
             <div className="info">
@@ -53,7 +53,13 @@ const AboutMe = () => {
               <p>victordella652@gmail.com</p>
             </div>
           </div>
-          <button>Download CV</button>
+          <a 
+            href='https://drive.google.com/drive/folders/1GLNuHUa5mNxuew29f-AvDy4cozlIv5zH?usp=sharing'
+            rel='noreferrer noopener'
+            target='_blank'
+          >
+            Download CV
+          </a>
         </section>
       </article>
     </div>
