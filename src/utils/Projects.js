@@ -87,7 +87,6 @@ export const GetProjects = async () => {
             status: status[3],
             ownProject: true
         },
-        ,
         {
             title: 'Rede de dados climáticos',
             description: 'Sistema de gerenciamento de dados de uma rede (cliente-servidor - TCP/IP) de dados climáticos de salas de aula de uma universidade fictícia.',
