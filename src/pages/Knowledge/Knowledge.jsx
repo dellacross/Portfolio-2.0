@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import './Knowledge.css'
 import { GetExperiences } from '../../utils/Experiences'
-import Certificate from '../../components/Knowledge'
+import Certificate from '../../components/Knowledge/Certificate'
 
 const Knowledge = () => {
 

@@ -35,7 +35,7 @@ const Project = (props) => {
         {
             props.item?.tools && props.item?.tools?.map((tool, index) => (
                 <span key={index}>
-                    <i class={tool} />
+                    <i className={tool} />
                 </span>
             ))
         }

@@ -58,8 +58,6 @@ const VerticalNav = () => {
     };
   }, []);
 
-  useEffect(() => {console.log("cs", currentSection)}, [currentSection])
-
   return (
     <nav id="vertical-nav">
       {
