@@ -21,7 +21,7 @@ export const GetProjects = async () => {
                 'devicon-react-original colored',
                 'devicon-reactrouter-plain-wordmark colored'
             ],
-            siteUrl: 'https://dellacross.github.io/area-restrita/',
+            siteUrl: 'https://restrito-beta.cotemig.com.br/',
             status: status[1],
             ownProject: false
         },
@@ -43,7 +43,7 @@ export const GetProjects = async () => {
         },
         {
             title: 'Conta Certa',
-            description: 'Sistema de gerenciamento de gastos pessoais com diversas funcionalidades.',
+            description: 'Sistema de gerenciamento de gastos pessoais.',
             repositoryUrl: 'https://github.com/dellacross/ContaCerta',
             restrictUrl: true,
             tools: [
