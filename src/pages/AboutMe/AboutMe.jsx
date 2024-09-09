@@ -22,7 +22,7 @@ const AboutMe = () => {
         <div id="image-wrapper">
           <img 
             src={Photo}
-            alt='photo' 
+            alt='' 
           />
         </div>
       </article>

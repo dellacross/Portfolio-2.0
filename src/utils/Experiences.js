@@ -16,11 +16,6 @@ const getTime = (date) => {
 
 export const GetExperiences = async () => {
 
-    const status = [
-        'Finalizado', 
-        'Em andamento'
-    ]
-
     const experience = [
         {
             title: 'Curso de desenvolvimento full stack - Udemy',
