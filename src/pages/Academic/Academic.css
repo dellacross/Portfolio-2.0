@@ -43,11 +43,12 @@
 }
 
 #academic > article {
+    height: calc(100% - 250px);
+    display: grid;
     width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 0 70px;
 }
 
 #academic > article > #time-line {
@@ -65,9 +66,8 @@
 }
 
 #academic > article > section {
-    width: 400px;
-    height: 350px;
     display: flex;
+    height: 50%;
     background-color: #303030;
     align-items: center;
     justify-content: center;
@@ -75,6 +75,7 @@
     color: #fff;
     padding: 20px 10px;
     text-align: center;
+    margin: 10px;
 }
 
 #academic > article > section > header > header {
@@ -102,4 +103,52 @@
     align-items: center;
     justify-content: center;
     font-size: 1.2rem;
+}
+
+@media screen and (max-width: 1366px) {
+
+    #academic > article {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #academic > article > section {
+        height: 80%;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+
+    #academic {
+        height: auto;
+        min-height: auto;
+    }
+
+    #academic > header {
+        height: 100px !important;
+    }
+
+    #academic > article {
+        display: flex;
+        flex-direction: column;
+        height: calc(100% - 100px);
+        padding: 5px 10px;
+    }
+
+    #academic > article > section {
+        height: 80%;
+        margin: 0;
+    }
+    
+    #academic > header {
+        height: 150px;
+    }
+
+    #academic > header > h1 {
+        font-size: 3rem;
+    }
+
+    #academic > header > h1 > span {
+        font-size: 5rem;
+        transform: translate(75px, -20px);
+    }
 }
