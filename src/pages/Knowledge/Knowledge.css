@@ -64,7 +64,6 @@
 }
 
 @media screen and (max-width: 1024px) {
-
     #knowledge {
         height: auto;
         min-height: auto;
@@ -72,20 +71,21 @@
     }
 
     #knowledge > header {
-        height: 100px;
+        height: 60px;
     }
 
     #knowledge > header > h1 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     #knowledge > header > h1 > span {
-        font-size: 5rem;
-        transform: translate(-150px, -20px);
+        font-size: 3rem;
+        transform: translate(-85px, -10px);
     }
 
     #knowledge > article {
-        grid-template-columns: repeat(1, 1fr);
-        height: calc(100% - 100px);
+        display: flex;
+        flex-direction: column;
+        height: calc(100% - 60px);
     }
 }

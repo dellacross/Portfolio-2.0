@@ -58,3 +58,18 @@
     color: var(--vsc-color);
     font-weight: 600;
 }
+
+@media screen and (max-width: 767px) {
+    #knowledge > article > section > main > .techs > span {
+        font-size: 1.5rem;
+    }
+
+    #knowledge > article > section > p {
+        font-size: 1.2rem;
+    }
+
+    #knowledge > article > section > a,
+    #knowledge > article > section > span {
+        font-size: 1rem;
+    }
+}

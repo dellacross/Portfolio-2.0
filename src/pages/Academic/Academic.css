@@ -106,7 +106,6 @@
 }
 
 @media screen and (max-width: 1366px) {
-
     #academic > article {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -117,20 +116,19 @@
 }
 
 @media screen and (max-width: 1023px) {
-
     #academic {
         height: auto;
         min-height: auto;
     }
 
     #academic > header {
-        height: 100px !important;
+        height: 70px;
     }
 
     #academic > article {
         display: flex;
         flex-direction: column;
-        height: calc(100% - 100px);
+        height: calc(100% - 70px);
         padding: 5px 10px;
     }
 
@@ -138,17 +136,13 @@
         height: 80%;
         margin: 0;
     }
-    
-    #academic > header {
-        height: 150px;
-    }
 
     #academic > header > h1 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     #academic > header > h1 > span {
-        font-size: 5rem;
-        transform: translate(75px, -20px);
+        font-size: 3.5rem;
+        transform: translate(40px, -15px);
     }
 }
