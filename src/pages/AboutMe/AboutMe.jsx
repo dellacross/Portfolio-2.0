@@ -18,7 +18,7 @@ const AboutMe = () => {
           <span>RESUMO</span>
         </h1>
       </header>
-      <article>
+      <article id="img-article">
         <div id="image-wrapper">
           <img 
             src={Photo}
@@ -26,11 +26,11 @@ const AboutMe = () => {
           />
         </div>
       </article>
-      <article>
+      <article id="datas-article">
         <section id="datas-wrapper">
           <h3>
             <span><ion-icon name="remove-outline"></ion-icon></span>
-            Meu nome é&nbsp;<b>Victor</b>, desenvolvedor web full stack
+            <p>Meu nome é&nbsp;<b>Victor</b>, desenvolvedor web full stack</p>
           </h3>
           <p>
             Sou graduando do 9º período do curso de Sistemas de Informação, pela Universidade Federal de Minas Gerais (UFMG). Ao longo da minha formação, desenvolvi diversos projetos, em diferentes linguagens, e, atualmente, busco aplicar meus conhecimentos no mercado de trabalho como desenvolvedor web.

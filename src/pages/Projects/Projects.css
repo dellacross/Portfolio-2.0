@@ -6,7 +6,7 @@
     flex-wrap: wrap;
     align-items: flex-start;
     border-top: 2px solid #303030;
-    padding: 0 75px;
+    padding: 10px 75px;
 }
 
 #projects > header {
@@ -25,7 +25,6 @@
     color: #fff;
     position: relative;
     z-index: 2;    
-    height: calc(100% - 350px);
 }
 
 #projects > header > h1 > b {
@@ -39,7 +38,7 @@
     display: flex;
     top: 0;
     left: 0;
-    transform: translate(-75px, -25px);
+    transform: translate(-70px, -25px);
     z-index: 1;
     opacity: 0.1;
 }
@@ -50,5 +49,22 @@
     width: 100%;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
-    padding: 10px 0;
+}
+
+@media screen and (max-width: 1500px) {
+    #projects > article {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #projects > article {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #projects > article {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }

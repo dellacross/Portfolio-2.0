@@ -6,7 +6,7 @@
     flex-wrap: wrap;
     align-items: flex-start;
     border-top: 2px solid #303030;
-    padding: 0 50px;
+    padding: 10px 75px;
 }
 
 #knowledge > header {
@@ -25,7 +25,6 @@
     color: #fff;
     position: relative;
     z-index: 2;    
-    height: calc(100% - 350px);
 }
 
 #knowledge > header > h1 > b {
@@ -50,6 +49,22 @@
     width: 100%;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
-    padding: 10px 0;
 }
 
+@media screen and (max-width: 1500px) {
+    #knowledge > article {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #knowledge > article {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #knowledge > article {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

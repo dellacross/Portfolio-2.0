@@ -24,7 +24,6 @@
     color: #fff;
     position: relative;
     z-index: 2;    
-    height: calc(100% - 350px);
 }
 
 #academic > header > h1 > b {
