@@ -65,53 +65,9 @@
     background-color: var(--vsc-color);
 }
 
-#academic > article > section {
-    display: flex;
-    height: 50%;
-    background-color: #303030;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    color: #fff;
-    padding: 20px 10px;
-    text-align: center;
-    margin: 10px;
-}
-
-#academic > article > section > header > header {
-    height: 50px;
-}
-
-#academic > article > section > header > ion-icon {
-    font-size: 3.5rem;
-    color: var(--vsc-color);
-    margin-bottom: 5px;
-}
-
-#academic > article > section > main {
-    height: 100%;
-}
-
-#academic > article > section > main > p {
-    font-size: 1.2rem;
-}
-
-#academic > article > section > footer {
-    height: 25px;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.2rem;
-}
-
 @media screen and (max-width: 1366px) {
     #academic > article {
         grid-template-columns: repeat(2, 1fr);
-    }
-
-    #academic > article > section {
-        height: 80%;
     }
 }
 
@@ -130,11 +86,6 @@
         flex-direction: column;
         height: calc(100% - 70px);
         padding: 5px 10px;
-    }
-
-    #academic > article > section {
-        height: 80%;
-        margin: 0;
     }
 
     #academic > header > h1 {
