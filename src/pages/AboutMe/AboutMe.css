@@ -110,6 +110,7 @@
     font-size: 1.5rem;
     margin: 0;
     letter-spacing: 1px;
+    padding-right: 50px;
 }
 
 #about-me > article > #datas-wrapper > #infos-container {
@@ -195,11 +196,8 @@
         font-size: 1.2rem;
     }
 
+    #about-me > article > #datas-wrapper > #infos-container,
     #about-me > article > #datas-wrapper > #infos-container > .info {
-        margin: 5px 0;
-    }
-
-    #about-me > article > #datas-wrapper > #infos-container {
         margin: 5px 0;
     }
 }
@@ -231,6 +229,7 @@
 
     #about-me > article > #datas-wrapper > p {
         font-size: 1.25rem;
+        padding: 0;
     }
 }
 
