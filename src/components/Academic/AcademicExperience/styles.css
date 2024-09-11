@@ -1,6 +1,6 @@
 #academic > article > section {
     display: flex;
-    height: 50%;
+    min-height: auto;
     background-color: #303030;
     align-items: center;
     justify-content: center;
@@ -8,7 +8,7 @@
     color: #fff;
     padding: 20px 10px;
     text-align: center;
-    margin: 10px;
+    margin: auto 10px;
 }
 
 #academic > article > section > header > header {

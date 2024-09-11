@@ -51,6 +51,16 @@
     gap: 10px;
 }
 
+@media screen and (max-height: 800px) {
+    #projects > header {
+        height: 100px;
+    }
+
+    #projects > article {
+        height: calc(100% - 100px);
+    }
+}
+
 @media screen and (max-width: 1366px) {
     #projects > article {
         grid-template-columns: repeat(3, 1fr);

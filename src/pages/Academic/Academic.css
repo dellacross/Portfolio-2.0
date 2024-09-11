@@ -65,6 +65,16 @@
     background-color: var(--vsc-color);
 }
 
+@media screen and (max-height: 800px) {
+    #academic > header {
+        height: 120px;
+    }
+
+    #academic > article {
+        height: calc(100% - 120px);
+    }
+}
+
 @media screen and (max-width: 1366px) {
     #academic > article {
         grid-template-columns: repeat(2, 1fr);
