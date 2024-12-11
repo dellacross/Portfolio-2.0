@@ -26,12 +26,12 @@ export const GetProjects = async () => {
             ownProject: false
         },
         {
-            title: 'Campo minado',
-            description: 'Jogo de campo minado.',
-            repositoryUrl: 'https://github.com/dellacross/MineField',
+            title: 'Deposit Tracker',
+            description: 'Tracker para desafio de depósitos.',
+            repositoryUrl: 'https://github.com/dellacross/DepositTracker',
             restrictUrl: true,
             tools: [
-                'devicon-javascript-plain colored',
+                'devicon-typescript-plain colored'
                 'devicon-html5-plain colored',
                 'devicon-css3-plain colored',
                 'devicon-react-original colored',
@@ -51,7 +51,8 @@ export const GetProjects = async () => {
                 'devicon-html5-plain colored',
                 'devicon-css3-plain colored',
                 'devicon-react-original colored',
-                'devicon-nodejs-plain colored'
+                'devicon-nodejs-plain colored',
+                'devicon-express-original-wordmark'
             ],
             siteUrl: null,
             status: status[1],
