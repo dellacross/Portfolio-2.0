@@ -31,7 +31,7 @@ export const GetProjects = async () => {
             repositoryUrl: 'https://github.com/dellacross/DepositTracker',
             restrictUrl: true,
             tools: [
-                'devicon-typescript-plain colored'
+                'devicon-typescript-plain colored',
                 'devicon-html5-plain colored',
                 'devicon-css3-plain colored',
                 'devicon-react-original colored',
