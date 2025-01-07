@@ -62,7 +62,7 @@ export const GetProjects = async () => {
             title: 'Portfólio',
             description: 'Portfólio pessoal.',
             repositoryUrl: 'https://github.com/dellacross/Portfolio-2.0',
-            restrictUrl: true,
+            restrictUrl: false,
             tools: [
                 'devicon-javascript-plain colored',
                 'devicon-html5-plain colored',
@@ -71,7 +71,7 @@ export const GetProjects = async () => {
                 'devicon-nodejs-plain colored'
             ],
             siteUrl: null,
-            status: status[2],
+            status: status[3],
             ownProject: true
         },
         {
