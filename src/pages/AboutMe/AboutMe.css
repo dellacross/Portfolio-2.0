@@ -46,11 +46,11 @@
 }
 
 #about-me > article:first-child {
-    width: 600px;
+    width: 500px;
 }
 
 #about-me > article:last-child {
-    width: calc(100% - 600px);
+    width: calc(100% - 500px);
 }
 
 #about-me > article > #image-wrapper {
@@ -69,7 +69,6 @@
 }
 
 #about-me > article > #datas-wrapper {
-    width: 100%;
     height: 100%;
     display: flex;
     justify-content: flex-start;
@@ -83,12 +82,18 @@
     color: #fff;
     font-size: 2rem;
     margin: 0;
+    padding: 0;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
-#about-me > article > #datas-wrapper > h3 > b {
+#about-me > article > #datas-wrapper > h3 > p {
+    margin: 0;
+    padding: 0;
+}
+
+#about-me > article > #datas-wrapper > h3 > p > b {
     color: var(--vsc-color);
 }
 
@@ -105,6 +110,7 @@
     font-size: 1.5rem;
     margin: 0;
     letter-spacing: 1px;
+    padding-right: 50px;
 }
 
 #about-me > article > #datas-wrapper > #infos-container {
@@ -146,4 +152,162 @@
     align-items: center;
     padding: 7px 20px;
     text-decoration: none;
+}
+
+@media screen and (max-height: 800px) {
+    #about-me > article > #image-wrapper > img {
+        height: 450px;
+        width: 400px;
+    }
+
+    #about-me > article {
+        height: calc(100% - 100px);
+    }
+
+    #about-me > article > section,
+    #about-me > article > #image-wrapper {
+        align-items: center;
+    }
+
+    #about-me > header {
+        height: 100px;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    #about-me > article > #datas-wrapper {
+        padding: 0;
+    }
+
+    #about-me > article > #image-wrapper > img {
+        height: 350px;
+        width: 315px;
+    }
+
+    #about-me > article > #datas-wrapper > h3 {
+        font-size: 1.5rem;
+    }
+
+    #about-me > article > #datas-wrapper > h3 > span {
+        font-size: 3rem;
+    }
+
+    #about-me > article > #datas-wrapper > p {
+        font-size: 1.2rem;
+    }
+
+    #about-me > article > #datas-wrapper > #infos-container,
+    #about-me > article > #datas-wrapper > #infos-container > .info {
+        margin: 5px 0;
+    }
+}
+
+@media screen and (max-height: 500px) {
+    #about-me > article > #image-wrapper > img {
+        height: 270px;
+        width: 225px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    #about-me > article > #datas-wrapper {
+        padding: 0;
+    }
+
+    #about-me > article > #image-wrapper > img {
+        height: 400px;
+        width: 350px;
+    }
+
+    #about-me > article > #datas-wrapper > h3 {
+        font-size: 1.5rem;
+    }
+
+    #about-me > article > #datas-wrapper > h3 > span {
+        font-size: 3rem;
+    }
+
+    #about-me > article > #datas-wrapper > p {
+        font-size: 1.25rem;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    #about-me {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: auto;
+        min-height: auto;
+    }
+
+    #about-me > header {
+        height: 60px;
+    }
+
+    #about-me > header > h1 {
+        font-size: 2rem;
+    }
+
+    #about-me > header > h1 > span {
+        font-size: 3.5rem;
+        transform: translate(-30px, -15px);
+    }
+
+    #about-me > article {
+        min-width: 100%;
+    }
+
+    #about-me > #img-article {
+        height: 250px;
+    }
+
+    #about-me > article > #image-wrapper {
+        width: 100%;
+        height: 250px;
+    }
+
+    #about-me > #datas-article {
+        height: calc(100% - 310px);
+        padding: 10px 0;
+    }
+
+    #about-me > article > section {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    #about-me > article > #image-wrapper > img {
+        height: 250px;
+        width: 215px;
+        margin: 0 auto;
+    }
+
+    #about-me > article > #datas-wrapper > p {
+        padding: 0 15px;
+    }
+
+    #about-me > article > #datas-wrapper > a {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    #about-me > article > #datas-wrapper > #infos-container {
+        flex-direction: column;
+    }
+
+    #about-me > article > #datas-wrapper > #infos-container > .info {
+        width: 100%;
+    }
+
+    #about-me > article > #datas-wrapper > #infos-container > .info {
+        margin: 5px 0;
+    }
+
+    #about-me > article > #datas-wrapper > #infos-container {
+        margin: 5px 0;
+    }
 }

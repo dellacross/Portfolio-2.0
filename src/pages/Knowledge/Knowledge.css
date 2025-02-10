@@ -6,7 +6,7 @@
     flex-wrap: wrap;
     align-items: flex-start;
     border-top: 2px solid #303030;
-    padding: 0 50px;
+    padding: 10px 75px;
 }
 
 #knowledge > header {
@@ -25,7 +25,6 @@
     color: #fff;
     position: relative;
     z-index: 2;    
-    height: calc(100% - 350px);
 }
 
 #knowledge > header > h1 > b {
@@ -50,6 +49,53 @@
     width: 100%;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
-    padding: 10px 0;
 }
 
+@media screen and (max-height: 800px) {
+    #knowledge > header {
+        height: 100px;
+    }
+
+    #knowledge > article {
+        height: calc(100% - 100px);
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    #knowledge > article {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    #knowledge > article {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #knowledge {
+        height: auto;
+        min-height: auto;
+        padding: 10px;
+    }
+
+    #knowledge > header {
+        height: 60px;
+    }
+
+    #knowledge > header > h1 {
+        font-size: 2rem;
+    }
+
+    #knowledge > header > h1 > span {
+        font-size: 3rem;
+        transform: translate(-85px, -10px);
+    }
+
+    #knowledge > article {
+        display: flex;
+        flex-direction: column;
+        height: calc(100% - 60px);
+    }
+}

@@ -24,7 +24,6 @@
     color: #fff;
     position: relative;
     z-index: 2;    
-    height: calc(100% - 350px);
 }
 
 #academic > header > h1 > b {
@@ -44,11 +43,12 @@
 }
 
 #academic > article {
+    height: calc(100% - 250px);
+    display: grid;
     width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 0 70px;
 }
 
 #academic > article > #time-line {
@@ -65,42 +65,45 @@
     background-color: var(--vsc-color);
 }
 
-#academic > article > section {
-    width: 400px;
-    height: 350px;
-    display: flex;
-    background-color: #303030;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    color: #fff;
-    padding: 20px 10px;
-    text-align: center;
+@media screen and (max-height: 800px) {
+    #academic > header {
+        height: 120px;
+    }
+
+    #academic > article {
+        height: calc(100% - 120px);
+    }
 }
 
-#academic > article > section > header > header {
-    height: 50px;
+@media screen and (max-width: 1366px) {
+    #academic > article {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
-#academic > article > section > header > ion-icon {
-    font-size: 3.5rem;
-    color: var(--vsc-color);
-    margin-bottom: 5px;
-}
+@media screen and (max-width: 1023px) {
+    #academic {
+        height: auto;
+        min-height: auto;
+    }
 
-#academic > article > section > main {
-    height: 100%;
-}
+    #academic > header {
+        height: 70px;
+    }
 
-#academic > article > section > main > p {
-    font-size: 1.2rem;
-}
+    #academic > article {
+        display: flex;
+        flex-direction: column;
+        height: calc(100% - 70px);
+        padding: 5px 10px;
+    }
 
-#academic > article > section > footer {
-    height: 25px;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.2rem;
+    #academic > header > h1 {
+        font-size: 2rem;
+    }
+
+    #academic > header > h1 > span {
+        font-size: 3.5rem;
+        transform: translate(40px, -15px);
+    }
 }

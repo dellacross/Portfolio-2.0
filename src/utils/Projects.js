@@ -22,12 +22,21 @@ export const GetProjects = async () => {
                 'devicon-reactrouter-plain-wordmark colored'
             ],
             siteUrl: 'https://restrito-beta.cotemig.com.br/',
+<<<<<<< HEAD
             status: status[3],
             ownProject: false
         },
         {
             title: 'DepositTracker',
             description: 'Tracker de depósitos para criação e gerenciamento de desafio de depósitos.',
+=======
+            status: status[1],
+            ownProject: false
+        },
+        {
+            title: 'Deposit Tracker',
+            description: 'Tracker para desafio de depósitos.',
+>>>>>>> c7c3dbd351b62a00999666d52b6346ff17b22f4a
             repositoryUrl: 'https://github.com/dellacross/DepositTracker',
             restrictUrl: true,
             tools: [
@@ -44,7 +53,7 @@ export const GetProjects = async () => {
         },
         {
             title: 'Conta Certa',
-            description: 'Sistema de gerenciamento de gastos pessoais com diversas funcionalidades.',
+            description: 'Sistema de gerenciamento de gastos pessoais.',
             repositoryUrl: 'https://github.com/dellacross/ContaCerta',
             restrictUrl: true,
             tools: [
@@ -53,7 +62,11 @@ export const GetProjects = async () => {
                 'devicon-css3-plain colored',
                 'devicon-react-original colored',
                 'devicon-nodejs-plain colored',
+<<<<<<< HEAD
                 'devicon-reactrouter-plain-wordmark colored'
+=======
+                'devicon-express-original-wordmark'
+>>>>>>> c7c3dbd351b62a00999666d52b6346ff17b22f4a
             ],
             siteUrl: null,
             status: status[1],
@@ -63,7 +76,7 @@ export const GetProjects = async () => {
             title: 'Portfólio',
             description: 'Portfólio pessoal.',
             repositoryUrl: 'https://github.com/dellacross/Portfolio-2.0',
-            restrictUrl: true,
+            restrictUrl: false,
             tools: [
                 'devicon-javascript-plain colored',
                 'devicon-html5-plain colored',
@@ -72,7 +85,7 @@ export const GetProjects = async () => {
                 'devicon-nodejs-plain colored'
             ],
             siteUrl: null,
-            status: status[2],
+            status: status[3],
             ownProject: true
         },
         {
