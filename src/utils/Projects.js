@@ -22,21 +22,12 @@ export const GetProjects = async () => {
                 'devicon-reactrouter-plain-wordmark colored'
             ],
             siteUrl: 'https://restrito-beta.cotemig.com.br/',
-<<<<<<< HEAD
             status: status[3],
             ownProject: false
         },
         {
             title: 'DepositTracker',
             description: 'Tracker de depósitos para criação e gerenciamento de desafio de depósitos.',
-=======
-            status: status[1],
-            ownProject: false
-        },
-        {
-            title: 'Deposit Tracker',
-            description: 'Tracker para desafio de depósitos.',
->>>>>>> c7c3dbd351b62a00999666d52b6346ff17b22f4a
             repositoryUrl: 'https://github.com/dellacross/DepositTracker',
             restrictUrl: true,
             tools: [
@@ -62,11 +53,7 @@ export const GetProjects = async () => {
                 'devicon-css3-plain colored',
                 'devicon-react-original colored',
                 'devicon-nodejs-plain colored',
-<<<<<<< HEAD
                 'devicon-reactrouter-plain-wordmark colored'
-=======
-                'devicon-express-original-wordmark'
->>>>>>> c7c3dbd351b62a00999666d52b6346ff17b22f4a
             ],
             siteUrl: null,
             status: status[1],

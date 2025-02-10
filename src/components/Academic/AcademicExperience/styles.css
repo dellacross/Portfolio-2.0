@@ -1,6 +1,6 @@
 #academic > article > section {
     display: flex;
-    min-height: auto;
+    height: 300px;
     background-color: #303030;
     align-items: center;
     justify-content: center;
