@@ -25,7 +25,13 @@ const Project = (props) => {
             }
             {
                 props.item?.siteUrl &&
-                <a href={props.item?.siteUrl}><ion-icon name="link-outline"></ion-icon></a>
+                <a 
+                    href={props.item?.siteUrl} 
+                    target='_blank'
+                    rel='noopener noreferrer'
+                >
+                    <ion-icon name="link-outline"></ion-icon>
+                </a>
             }
         </header>
         <strong>{props.item?.title}</strong>

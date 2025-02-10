@@ -12,12 +12,12 @@ const Academic = () => {
         </header>
         <article>
             <section>
-                <header><ion-icon name="library"></ion-icon></header>
+                <header><ion-icon name="code-slash"></ion-icon></header>
                 <main>
-                    <p>Ensino Médio</p>
-                    <h2>Colégio Espanhol Santa Maria Minas</h2>
+                    <p>Graduação</p>
+                    <h2>Bacharel em Sistemas de Informação - Universidade Federal de Minas Gerais (UFMG)</h2>
                 </main>
-                <footer>2016 - 2018</footer>  
+                <footer>2020 - 2024</footer>  
             </section>
             <section>
                 <header><ion-icon name="calculator"></ion-icon></header>
@@ -28,12 +28,12 @@ const Academic = () => {
                 <footer>2019 - 2020</footer>  
             </section>
             <section>
-                <header><ion-icon name="code-slash"></ion-icon></header>
+                <header><ion-icon name="library"></ion-icon></header>
                 <main>
-                    <p>Graduação em andamento</p>
-                    <h2>Sistemas de Informação - Universidade Federal de Minas Gerais (UFMG)</h2>
+                    <p>Ensino Médio</p>
+                    <h2>Colégio Espanhol Santa Maria Minas</h2>
                 </main>
-                <footer>2020 - em andamento</footer>  
+                <footer>2016 - 2018</footer>  
             </section>
         </article>
     </div>

@@ -21,21 +21,22 @@ export const GetProjects = async () => {
                 'devicon-react-original colored',
                 'devicon-reactrouter-plain-wordmark colored'
             ],
-            siteUrl: 'https://dellacross.github.io/area-restrita/',
-            status: status[1],
+            siteUrl: 'https://restrito-beta.cotemig.com.br/',
+            status: status[3],
             ownProject: false
         },
         {
-            title: 'Campo minado',
-            description: 'Jogo de campo minado.',
-            repositoryUrl: 'https://github.com/dellacross/MineField',
+            title: 'DepositTracker',
+            description: 'Tracker de depósitos para criação e gerenciamento de desafio de depósitos.',
+            repositoryUrl: 'https://github.com/dellacross/DepositTracker',
             restrictUrl: true,
             tools: [
-                'devicon-javascript-plain colored',
+                'devicon-typescript-plain colored',
                 'devicon-html5-plain colored',
                 'devicon-css3-plain colored',
                 'devicon-react-original colored',
-                'devicon-nodejs-plain colored'
+                'devicon-nodejs-plain colored',
+                'devicon-reactrouter-plain-wordmark colored'
             ],
             siteUrl: null,
             status: status[1],
@@ -51,12 +52,13 @@ export const GetProjects = async () => {
                 'devicon-html5-plain colored',
                 'devicon-css3-plain colored',
                 'devicon-react-original colored',
-                'devicon-nodejs-plain colored'
+                'devicon-nodejs-plain colored',
+                'devicon-reactrouter-plain-wordmark colored'
             ],
             siteUrl: null,
             status: status[1],
             ownProject: true
-        },
+        }, 
         {
             title: 'Portfólio',
             description: 'Portfólio pessoal.',

@@ -34,6 +34,10 @@
     margin: 0 10px;
 }
 
+#knowledge > article > section > main h2 {
+    margin: auto 0;
+}
+
 #knowledge > article > section > a {
     color: #fff;
     display: flex;

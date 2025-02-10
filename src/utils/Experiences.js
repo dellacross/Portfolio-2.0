@@ -6,20 +6,14 @@ const getTime = (date) => {
     const monthsDiff = today.getMonth() - initDate.getMonth();
     const totalMonthsDiff = yearsDiff * 12 + monthsDiff;
 
-    if (totalMonthsDiff < 12) {
-        return `${totalMonthsDiff}+ meses`;
-    } else {
+    if (totalMonthsDiff < 12) return `${totalMonthsDiff}+ meses`
+    else {
         const years = Math.floor(totalMonthsDiff / 12);
         return `${years}+ anos`;
     }
 }
 
 export const GetExperiences = async () => {
-
-    const status = [
-        'Finalizado', 
-        'Em andamento'
-    ]
 
     const experience = [
         {
