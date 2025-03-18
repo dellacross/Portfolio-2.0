@@ -82,7 +82,7 @@ export const GetExperiences = async () => {
             experience: getTime('1/7/2024')
         },
         {
-            title: 'Estágio em desenvolvimento web',
+            title: 'Estágio em desenvolvimento web - COTEMIG',
             tools: [
                 'devicon-react-original colored',
                 'devicon-javascript-plain colored',
@@ -91,7 +91,7 @@ export const GetExperiences = async () => {
             ],
             finalizado: false,
             link: null,
-            experience: getTime('6/3/2023')
+            experience: '2 anos'
         }
     ]
 

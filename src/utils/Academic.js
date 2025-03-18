@@ -3,7 +3,7 @@ export const GetAcademic = async () => {
     const academic = [
         {
             icon: "code-slash",
-            subtitle: "Graduação",
+            subtitle: "Graduação Concluída",
             title: "Bacharel em Sistemas de Informação - Universidade Federal de Minas Gerais (UFMG)",
             time: "2020 - 2024"
         },

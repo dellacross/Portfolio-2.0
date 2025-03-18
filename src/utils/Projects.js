@@ -29,7 +29,7 @@ export const GetProjects = async () => {
             title: 'DepositTracker',
             description: 'Tracker de depósitos para criação e gerenciamento de desafio de depósitos.',
             repositoryUrl: 'https://github.com/dellacross/DepositTracker',
-            restrictUrl: true,
+            restrictUrl: false,
             tools: [
                 'devicon-typescript-plain colored',
                 'devicon-html5-plain colored',
@@ -39,7 +39,7 @@ export const GetProjects = async () => {
                 'devicon-reactrouter-plain-wordmark colored'
             ],
             siteUrl: null,
-            status: status[1],
+            status: status[3],
             ownProject: true
         },
         {
