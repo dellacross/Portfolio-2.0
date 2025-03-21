@@ -1,15 +1,15 @@
 import React from 'react'
 import './styles.css'
 
-const AcademicExperience = (props) => {
+const AcademicExperience = ({title, subtitle, time, icon}) => {
   return (
     <section>
-      <header><ion-icon name={props.item?.icon}></ion-icon></header>
+      <header><ion-icon name={icon}></ion-icon></header>
       <main>
-          <p>{props.item?.subtitle}</p>
-          <h2>{props.item?.title}</h2>
+          <p>{subtitle}</p>
+          <h2>{title}</h2>
       </main>
-      <footer>{props.item?.time}</footer>
+      <footer>{time}</footer>
     </section>
   )
 }

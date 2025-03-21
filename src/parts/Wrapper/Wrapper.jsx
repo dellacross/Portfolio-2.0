@@ -6,6 +6,7 @@ import AboutMe from '../../pages/AboutMe/AboutMe'
 import Academic from '../../pages/Academic/Academic'
 import Knowledge from '../../pages/Knowledge/Knowledge'
 import Projects from '../../pages/Projects/Projects'
+import Professional from '../../pages/Professional/Professional'
 
 export const PagesContext = createContext({})
 
@@ -19,6 +20,7 @@ const Wrapper = () => {
         <VerticalNav />
         <Home />
         <AboutMe />
+        <Professional />
         <Academic />
         <Knowledge />
         <Projects />

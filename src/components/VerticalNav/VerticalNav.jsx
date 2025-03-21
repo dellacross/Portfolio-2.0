@@ -26,7 +26,7 @@ const VerticalNav = () => {
   }, [navItems])	
 
   useEffect(() => {
-    const sections = ['home', 'about-me', 'academic', 'knowledge', 'projects'];
+    const sections = ['home', 'about-me', 'professional', 'academic', 'knowledge', 'projects'];
     const options = {
       root: null,
       rootMargin: '0px',

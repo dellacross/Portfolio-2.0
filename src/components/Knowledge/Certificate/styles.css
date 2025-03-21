@@ -26,6 +26,12 @@ section#certificate > main {
     width: 100%;
 }
 
+section#certificate > main > h2 > p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
 section#certificate > main > .techs {
     font-size: 2.2rem;
 }

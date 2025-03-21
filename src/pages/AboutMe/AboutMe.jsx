@@ -33,7 +33,7 @@ const AboutMe = () => {
             <p>Meu nome é&nbsp;<b>Victor</b>, desenvolvedor web full stack</p>
           </h3>
           <p>
-            Sou desenvolvedor full stack e Bacharel em Sistemas de Informação pela Universidade Federal de Minas Gerais (UFMG), formação na qual desenvolvi diversos projetos, em diferentes tecnologias, como JavaScript, TypeScript, Python, C/C++, ReactJS, entre outras. Durante 2 anos atuei como estagiário em desenvolvimento web, período no qual pude aprimorar minhas habilidades na criação de interfaces dinâmicas e responsivas utilizando ReactJS, JavaScript, HTML e CSS. No momento, atuo como desenvolvedor front end júnior. 
+            Sou desenvolvedor full stack e Bacharel em Sistemas de Informação pela Universidade Federal de Minas Gerais (UFMG), formação na qual desenvolvi diversos projetos, em diferentes tecnologias, como JavaScript, TypeScript, Python, C/C++, ReactJS, entre outras. Durante 2 anos, atuei como estagiário em desenvolvimento web, período no qual pude aprimorar minhas habilidades na criação de interfaces dinâmicas e responsivas utilizando ReactJS, JavaScript, HTML e CSS. No momento, atuo como desenvolvedor front end júnior. 
           </p>
           <div id="infos-container">
             <div className="info">

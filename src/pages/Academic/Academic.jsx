@@ -28,10 +28,13 @@ const Academic = () => {
             </header>
             <article>
                 {
-                    academic && academic.map((item, index) => (
+                    academic && academic.map(({subtitle, title, time, icon}, index) => (
                         <AcademicExperience 
                             key={index} 
-                            item={item} 
+                            title={title}
+                            subtitle={subtitle}
+                            time={time}
+                            icon={icon}
                         />
                     ))
                 }

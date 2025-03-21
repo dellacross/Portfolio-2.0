@@ -1,16 +1,16 @@
 import React from 'react'
 import './styles.css'
 
-const Certificate = (props) => {
+const Certificate = ({title, tools, conclude, link, experience, company}) => {
 
   return (
     <section id="certificate">
         <header><ion-icon name="code"></ion-icon></header>
         <main>
-            <h2>{props.item?.title}</h2>
+            <h2>{title}<p>{company && `Empresa: ${company}`}</p></h2>
             <div className="techs">
             {
-                props.item?.tools && props.item?.tools?.map((tool, index) => (
+                tools && tools?.map((tool, index) => (
                     <span key={index}>
                         <i className={tool} />
                     </span>
@@ -19,9 +19,9 @@ const Certificate = (props) => {
             </div>
         </main>
         {
-            props.item?.link &&
+            link &&
             <a
-                href={props.item?.link}
+                href={link}
                 rel='noopener noreferrer'
                 target='_blank'
             >
@@ -29,11 +29,11 @@ const Certificate = (props) => {
             </a>
         }
         {
-            !props.item?.link && props.item?.experience &&
-            <p>{props.item?.experience}</p>
+            !link && experience &&
+            <p>{experience}</p>
         }
         {
-            !props.item?.link && !props.item?.experience && !props.item?.finalizado &&
+            !link && !experience && !conclude &&
             <span>Em andamento</span>
         }
     </section>

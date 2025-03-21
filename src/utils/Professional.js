@@ -17,7 +17,7 @@ export const GetProfissionalExperiences = async () => {
 
     const experience = [
         {
-            title: 'Desenvolvedor Front-end Junior - COTEMIG',
+            title: 'Desenvolvedor Front-end Junior',
             tools: [
                 'devicon-react-original colored',
                 'devicon-javascript-plain colored',
@@ -26,6 +26,7 @@ export const GetProfissionalExperiences = async () => {
             ],
             finalizado: false,
             link: null,
+            company: 'COTEMIG',
             experience: getTime('1/3/2025')
         }
     ]

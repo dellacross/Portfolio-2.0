@@ -27,10 +27,14 @@ const Knowledge = () => {
         </header>
         <article>
             {
-                experiences && experiences?.map((item, index) => (
+                experiences && experiences?.map(({ title, tools, conclude, link, experience }, index) => (
                     <Certificate 
                         key={index}
-                        item={item}
+                        title={title}
+                        tools={tools}
+                        conclude={conclude}
+                        link={link}
+                        experience={experience}
                     />
                 ))
             }

@@ -10,6 +10,10 @@ export const GetNavItems = async () => {
             icon: 'person'
         },
         {
+            title: 'professional',
+            icon: 'briefcase'
+        },
+        {
             title: 'academic', 
             icon: 'school'
         },

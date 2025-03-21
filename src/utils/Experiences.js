@@ -27,7 +27,7 @@ export const GetExperiences = async () => {
                 'devicon-nextjs-plain',
                 'devicon-nodejs-plain colored',
             ],
-            finaliado: true,
+            conclude: true,
             link: 'https://www.udemy.com/certificate/UC-7b61222f-9ff8-42b3-ac10-fa3a389b61f0/',
             experience: null
         },
@@ -39,7 +39,7 @@ export const GetExperiences = async () => {
                 'devicon-html5-plain colored',
                 'devicon-css3-plain colored',
             ],
-            finalizado: true,
+            conclude: true,
             link: 'https://www.udemy.com/certificate/UC-c0f8489a-620c-4687-873b-51d54226a028/',
             experience: null
         },
@@ -53,7 +53,7 @@ export const GetExperiences = async () => {
                 'devicon-firebase-plain colored',
                 'devicon-redux-original colored'
             ],
-            finalizado: false,
+            conclude: false,
             link: null,
             experience: null
         },
@@ -66,7 +66,7 @@ export const GetExperiences = async () => {
                 'devicon-html5-plain colored',
                 'devicon-css3-plain colored',
             ],
-            finalizado: false,
+            conclude: false,
             link: null,
             experience: getTime('1/11/2022')
         },
@@ -77,7 +77,7 @@ export const GetExperiences = async () => {
                 'devicon-typescript-plain colored',
                 'devicon-javascript-plain colored',
             ],
-            finalizado: false,
+            conclude: false,
             link: null,
             experience: getTime('1/7/2024')
         },
@@ -89,9 +89,10 @@ export const GetExperiences = async () => {
                 'devicon-html5-plain colored',
                 'devicon-css3-plain colored',
             ],
-            finalizado: false,
+            conclude: false,
             link: null,
-            experience: '2 anos'
+            experience: '2 anos',
+            company: 'COTEMIG',
         }
     ]
 
