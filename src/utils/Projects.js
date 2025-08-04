@@ -19,7 +19,9 @@ export const GetProjects = async () => {
                 'devicon-html5-plain colored',
                 'devicon-css3-plain colored',
                 'devicon-react-original colored',
-                'devicon-reactrouter-plain-wordmark colored'
+                'devicon-reactrouter-plain-wordmark colored',
+                'devicon-axios-plain colored',
+                'devicon-postman-plain colored'
             ],
             siteUrl: 'https://restrito-beta.cotemig.com.br/',
             status: status[3],
@@ -36,7 +38,10 @@ export const GetProjects = async () => {
                 'devicon-css3-plain colored',
                 'devicon-react-original colored',
                 'devicon-nodejs-plain colored',
-                'devicon-reactrouter-plain-wordmark colored'
+                'devicon-reactrouter-plain-wordmark colored',
+                'devicon-axios-plain colored',
+                'devicon-postman-plain colored',
+                'devicon-postgresql-plain colored'
             ],
             siteUrl: null,
             status: status[3],
@@ -48,12 +53,15 @@ export const GetProjects = async () => {
             repositoryUrl: 'https://github.com/dellacross/ContaCerta',
             restrictUrl: true,
             tools: [
-                'devicon-javascript-plain colored',
+                'devicon-typescript-plain colored',
                 'devicon-html5-plain colored',
                 'devicon-css3-plain colored',
                 'devicon-react-original colored',
                 'devicon-nodejs-plain colored',
-                'devicon-reactrouter-plain-wordmark colored'
+                'devicon-reactrouter-plain-wordmark colored',
+                'devicon-axios-plain colored',
+                'devicon-postman-plain colored',
+                'devicon-postgresql-plain colored'
             ],
             siteUrl: null,
             status: status[1],
@@ -81,9 +89,10 @@ export const GetProjects = async () => {
             repositoryUrl: 'https://github.com/dellacross/SujeitoPizza',
             restrictUrl: false,
             tools: [
-                'devicon-javascript-plain colored',
                 'devicon-typescript-plain colored',
-                'devicon-nodejs-plain colored'
+                'devicon-nodejs-plain colored',
+                'devicon-postman-plain colored',
+                'devicon-postgresql-plain colored'
             ],
             siteUrl: null,
             status: status[3],
