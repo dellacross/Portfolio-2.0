@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react'
 import './Professional.css'
+import { useState, useEffect } from 'react'
 import { GetProfissionalExperiences } from '../../utils/Professional'
 import Certificate from '../../components/Knowledge/Certificate'
 
@@ -26,7 +26,7 @@ const Professional = () => {
         </header>
         <article>
             {
-                experiences && experiences?.map(({ title, tools, conclude, link, experience, company }, index) => (
+                experiences?.map(({ title, tools, conclude, link, experience, company }, index) => (
                     <Certificate 
                         key={index}
                         title={title}

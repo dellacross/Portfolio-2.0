@@ -1,4 +1,3 @@
-import React from 'react'
 import './styles.css'
 
 const Certificate = ({title, tools, conclude, link, experience, company}) => {
@@ -10,7 +9,7 @@ const Certificate = ({title, tools, conclude, link, experience, company}) => {
             <h2>{title}<p>{company && `Empresa: ${company}`}</p></h2>
             <div className="techs">
             {
-                tools && tools?.map((tool, index) => (
+                tools?.map((tool, index) => (
                     <span key={index}>
                         <i className={tool} />
                     </span>
