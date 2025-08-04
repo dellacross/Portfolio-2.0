@@ -26,6 +26,7 @@ export const GetExperiences = async () => {
                 'devicon-css3-plain colored',
                 'devicon-nextjs-plain',
                 'devicon-nodejs-plain colored',
+                'devicon-postgresql-plain colored'
             ],
             conclude: true,
             link: 'https://www.udemy.com/certificate/UC-7b61222f-9ff8-42b3-ac10-fa3a389b61f0/',
@@ -44,14 +45,15 @@ export const GetExperiences = async () => {
             experience: null
         },
         {
-            title: 'Curso de desenvolvimento mobile - Udemy',
+            title: 'Curso de desenvolvimento ReactJS + NextJS - Udemy',
             tools: [
                 'devicon-react-original colored',
+                'devicon-typescript-plain colored',
                 'devicon-javascript-plain colored',
                 'devicon-html5-plain colored',
                 'devicon-css3-plain colored',
-                'devicon-firebase-plain colored',
-                'devicon-redux-original colored'
+                'devicon-nextjs-plain',
+                'devicon-tailwindcss-original colored'
             ],
             conclude: false,
             link: null,
@@ -65,6 +67,9 @@ export const GetExperiences = async () => {
                 'devicon-javascript-plain colored',
                 'devicon-html5-plain colored',
                 'devicon-css3-plain colored',
+                'devicon-axios-plain colored',
+                'devicon-reactrouter-plain colored',
+                'devicon-postman-plain colored',
             ],
             conclude: false,
             link: null,
@@ -76,6 +81,8 @@ export const GetExperiences = async () => {
                 'devicon-nodejs-plain colored',
                 'devicon-typescript-plain colored',
                 'devicon-javascript-plain colored',
+                'devicon-postman-plain colored',
+                'devicon-postgresql-plain colored'
             ],
             conclude: false,
             link: null,
